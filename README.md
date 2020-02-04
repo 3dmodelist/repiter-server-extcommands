@@ -11,4 +11,6 @@ off.sh file
 gpio mode {GPIO #} out
 gpio write {GPIO #} 1
 
-change {GPIO #} to which ever gpio you are going to use
+change {GPIO #} to which ever gpio you are going to use.
+
+once all changes have been made you need to restart the raspberry pi for the changes to take effect and then the option should show up in the web ui of repetier server under the gear icon.
